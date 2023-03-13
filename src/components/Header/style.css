@@ -1,0 +1,38 @@
+header {
+  background-image: url('../../assets/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 491px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  position: absolute;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+header .container h1 {
+  font-size: 88px;
+}
+
+header .container h2 {
+  font-size: 22px;
+}
+
+header img {
+  height: 67px;
+  width: 166px;
+  margin-left: 33px;
+  margin-bottom: 28px;
+}

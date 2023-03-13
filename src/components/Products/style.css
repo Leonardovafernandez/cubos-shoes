@@ -1,0 +1,64 @@
+.card {
+  height: 478px;
+  width: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  scale: 1.1;
+}
+
+.card img {
+  height: 322px;
+  width: 322px;
+  margin-bottom: 25px;
+}
+
+.card .info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-name {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+
+.card-old-price {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgba(171, 160, 160, 1);
+  margin-right: 8px;
+  text-decoration: line-through;
+}
+
+.card-price {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.min-price {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  margin-right: 4px;
+}
+
+.juros {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
